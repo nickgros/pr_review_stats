@@ -1,11 +1,13 @@
 # Compute stats on recently reviewed PRs
 
+A Jupyter Notebook that can compute stats on your recently reviewed PRs, such as line count summary statistics.
+
 ## Usage
 
 Supply a .env file with the following:
 
-`GITHUB_TOKEN` - the GitHub token with which you will make authenticated requests to the GitHub API. If you have authenticated with the GitHub CLI, you can find this by running `gh auth token`.
-`GITHUB_USERNAME` - the GitHub username of the user whom you will compute statistics about.
+- `GITHUB_TOKEN` - the GitHub token with which you will make authenticated requests to the GitHub API. If you have authenticated with the GitHub CLI, you can find this by running `gh auth token`.
+- `GITHUB_USERNAME` - the GitHub username of the user whom you will compute statistics about.
 
 ## More information
 
